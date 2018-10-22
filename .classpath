@@ -34,6 +34,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/rmg/Desktop/CoyaChallenge/lib/testng-6.14.3.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
