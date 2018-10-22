@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite" >
+	<parameter name="browser" value="chrome" />
+	<test name="Regression Test" preserve-order="true">
+		<classes>
+			<class name="com.coya.challenge.tests.HomePageTest" />
+			<class name="com.coya.challenge.tests.JobsPageTest" />
+		</classes>
+	</test>
+</suite> 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Regression Test(failed)">
+    <classes>
+      <class name="com.coya.challenge.tests.JobsPageTest">
+        <methods>
+          <include name="init"/>
+          <include name="initialize"/>
+          <include name="screenshotOnFailure"/>
+          <include name="jobSearch"/>
+          <include name="openJobsPage"/>
+          <include name="stopDriver"/>
+        </methods>
+      </class> <!-- com.coya.challenge.tests.JobsPageTest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

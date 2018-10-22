@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="6354" started-at="2018-10-21T22:16:14Z" finished-at="2018-10-21T22:16:20Z">
+    <groups>
+    </groups>
+    <test name="Regression Test" duration-ms="6354" started-at="2018-10-21T22:16:14Z" finished-at="2018-10-21T22:16:20Z">
+      <class name="com.coya.challenge.tests.JobsPageTest">
+        <test-method status="PASS" signature="openJobsPage()[pri:0, instance:com.coya.challenge.tests.JobsPageTest@53b32d7]" name="openJobsPage" duration-ms="1449" started-at="2018-10-21T22:16:17Z" finished-at="2018-10-21T22:16:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openJobsPage -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.coya.challenge.tests.JobsPageTest@53b32d7]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2018-10-21T22:16:18Z" finished-at="2018-10-21T22:16:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openJobsPage status=SUCCESS method=JobsPageTest.openJobsPage()[pri:0, instance:com.coya.challenge.tests.JobsPageTest@53b32d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="jobSearch()[pri:0, instance:com.coya.challenge.tests.JobsPageTest@53b32d7]" name="jobSearch" duration-ms="1608" started-at="2018-10-21T22:16:18Z" depends-on-methods="com.coya.challenge.tests.JobsPageTest.openJobsPage" finished-at="2018-10-21T22:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobSearch -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.coya.challenge.tests.JobsPageTest@53b32d7]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2018-10-21T22:16:20Z" finished-at="2018-10-21T22:16:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=jobSearch status=SUCCESS method=JobsPageTest.jobSearch()[pri:0, instance:com.coya.challenge.tests.JobsPageTest@53b32d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+      </class> <!-- com.coya.challenge.tests.JobsPageTest -->
+      <class name="com.coya.challenge.tests.HomePageTest">
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:com.coya.challenge.tests.HomePageTest@343f4d3d]" name="initialize" is-config="true" duration-ms="7715" started-at="2018-10-21T22:16:06Z" finished-at="2018-10-21T22:16:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.coya.challenge.tests.HomePageTest@343f4d3d]" name="init" is-config="true" duration-ms="79" started-at="2018-10-21T22:16:14Z" finished-at="2018-10-21T22:16:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.coya.challenge.tests.JobsPageTest@53b32d7]" name="init" is-config="true" duration-ms="11" started-at="2018-10-21T22:16:14Z" finished-at="2018-10-21T22:16:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="changeLanguage()[pri:0, instance:com.coya.challenge.tests.HomePageTest@343f4d3d]" name="changeLanguage" duration-ms="552" started-at="2018-10-21T22:16:14Z" finished-at="2018-10-21T22:16:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeLanguage -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.coya.challenge.tests.HomePageTest@343f4d3d]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2018-10-21T22:16:14Z" finished-at="2018-10-21T22:16:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=changeLanguage status=SUCCESS method=HomePageTest.changeLanguage()[pri:0, instance:com.coya.challenge.tests.HomePageTest@343f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="checkMenuSize()[pri:0, instance:com.coya.challenge.tests.HomePageTest@343f4d3d]" name="checkMenuSize" duration-ms="95" started-at="2018-10-21T22:16:14Z" finished-at="2018-10-21T22:16:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMenuSize -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.coya.challenge.tests.HomePageTest@343f4d3d]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2018-10-21T22:16:14Z" finished-at="2018-10-21T22:16:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkMenuSize status=SUCCESS method=HomePageTest.checkMenuSize()[pri:0, instance:com.coya.challenge.tests.HomePageTest@343f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="subscribeToNewsletter()[pri:0, instance:com.coya.challenge.tests.HomePageTest@343f4d3d]" name="subscribeToNewsletter" duration-ms="2507" started-at="2018-10-21T22:16:14Z" depends-on-methods="com.coya.challenge.tests.HomePageTest.changeLanguage" finished-at="2018-10-21T22:16:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subscribeToNewsletter -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.coya.challenge.tests.HomePageTest@343f4d3d]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2018-10-21T22:16:17Z" finished-at="2018-10-21T22:16:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=subscribeToNewsletter status=SUCCESS method=HomePageTest.subscribeToNewsletter()[pri:0, instance:com.coya.challenge.tests.HomePageTest@343f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:com.coya.challenge.tests.HomePageTest@343f4d3d]" name="stopDriver" is-config="true" duration-ms="874" started-at="2018-10-21T22:16:20Z" finished-at="2018-10-21T22:16:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- com.coya.challenge.tests.HomePageTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
